@@ -1,4 +1,20 @@
-# Termux Package Installer
+
+# Termux Package Installer (Improved)
+
+Clean and improved all-in-one package installer for Termux.
+
+### Features
+- Essential packages
+- Programming languages (Python, Node.js, Go, Rust, Java, PHP...)
+- Useful tools (htop, neofetch, nmap, fzf, tmux...)
+- Popular Python libraries
+- Clean colored output + status (✓ / ✗)
+- Error handling
+
+### One-line Install
+
+```bash
+pkg install git -y && git clone https://github.com/muba76ma/termux-package-installer && cd termux-package-installer && chmod +x all-package.sh && bash all-package.sh# Termux Package Installer
 ### A simple and efficient script to install multiple packages in Termux with ease.
 
 ## Installation ⚙️
